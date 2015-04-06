@@ -1,0 +1,33 @@
+package org.san.Control;
+
+public class CustomerController extends MultiActionController{
+	
+	public ModelAndView testaddCustomer(HttpServletRequest request,
+		HttpServletResponse response) throws Exception {
+		
+		return new ModelAndView("CustomerPage", "msg","add() method");
+			
+	}
+	
+	public ModelAndView testdeleteCustomer(HttpServletRequest request,
+		HttpServletResponse response) throws Exception {
+			
+		return new ModelAndView("CustomerPage", "msg","delete() method");
+				
+	}
+	
+	public ModelAndView testupdateCustomer(HttpServletRequest request,
+		HttpServletResponse response) throws Exception {
+			
+		return new ModelAndView("CustomerPage", "msg","update() method");
+				
+	}
+	
+	public ModelAndView testviewCustomer(HttpServletRequest request,
+		HttpServletResponse response) throws Exception {
+				
+		return new ModelAndView("CustomerPage", "msg","list() method");
+					
+	}
+	
+}

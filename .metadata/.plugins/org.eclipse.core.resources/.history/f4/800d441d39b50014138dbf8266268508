@@ -1,0 +1,8 @@
+package org.san.multi;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class BaseController {
+
+}

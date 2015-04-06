@@ -1,0 +1,10 @@
+package org.san.multi;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+@RequestMapping("/customer")
+public class BaseController {
+
+}

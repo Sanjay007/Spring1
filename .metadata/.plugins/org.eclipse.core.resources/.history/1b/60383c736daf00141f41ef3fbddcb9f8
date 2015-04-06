@@ -1,0 +1,7 @@
+package org.san.BaseController;
+
+import org.springframework.web.servlet.mvc.AbstractController;
+
+public class BaseController extends AbstractController {
+
+}

@@ -1,0 +1,35 @@
+package org.controller;
+
+import java.util.Map;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.portlet.ModelAndView;
+
+@Controller
+public class FormController {
+
+	@RequestMapping("/")
+		public ModelAndView hello(){
+			
+			
+			
+			return new  ModelAndView("adduser","msg","Add user Page");
+			
+			
+		}
+		
+	@RequestMapping("/adduser")
+	public ModelAndView adduser(){
+		
+		
+		
+		return new  ModelAndView("adduser","msg","Add user Page");
+		
+		
+	}
+	
+
+	
+	
+}
